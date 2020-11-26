@@ -1,4 +1,4 @@
-var myArray = ['https://gratismp3z.club/', 'https://hargahpku.com/', 'https://dlfreeimage.co/', 'https://how-to.buzz/', 'https://kajian.co/'];
+var myArray = ['https://mp3gratisku.net/', 'https://lagump3z.club/', 'https://gratismp3z.club/', 'https://hargahpku.com/', 'https://dlfreeimage.co/', 'https://how-to.buzz/', 'https://kajian.co/'];
 var rand = Math.floor(Math.random() * myArray.length);
 
 function showquote(){
