@@ -4,7 +4,7 @@ var ars = rChoice([
     'https://app3.madreview.net',
     'https://app5.madreview.net',
     'https://app7.madreview.net',
-    'https://lazuare.madreview.net',
+    'https://web.contoh-surat.co',
 ]);
 
 function rChoice(arr) {
