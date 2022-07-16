@@ -1,10 +1,5 @@
 var ars = rChoice([
-    'https://download.madreview.net',
-    'https://app1.madreview.net',
-    'https://app3.madreview.net',
-    'https://app5.madreview.net',
-    'https://app7.madreview.net',
-    'https://web.contoh-surat.co',
+    'https://resep.madreview.net',
 ]);
 
 function rChoice(arr) {
