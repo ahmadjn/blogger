@@ -133,7 +133,7 @@
 
 ---
 
-## SIMPAN KODE BERIKUT DI BAGIAN AKHIR BODY (sebelum </body>)
+## SIMPAN KODE BERIKUT DI BAGIAN AKHIR BODY (sebelum `</body>`)
 
 ### Ganti <!--KODE-IKLAN-RESPONSIVE--> dengan script iklan responsive adsense
 
